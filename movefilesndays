@@ -1,0 +1,7 @@
+//Acesse o CMD
+
+//Altere para o número de dias desejado
+
+forfiles /p C:\Users\aryel\Documents\Teste /m . /s /d -1 /c "cmd /c move @file E:\ACSoftware"
+
+//Crie uma tarefa automática no Windows com o script.
