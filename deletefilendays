@@ -4,3 +4,4 @@
 
 forfiles /p "C:\Users\aryel\Documents\Teste" /s /d -1 /c "cmd /c del @file : date >= 1 days >NUL"
 
+//Crie uma tarefa automática no Windows com o script.
