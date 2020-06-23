@@ -1,0 +1,6 @@
+//Acesse o CMD
+
+//Altere para o número de dias desejado
+
+forfiles /p "C:\Users\aryel\Documents\Teste" /s /d -1 /c "cmd /c del @file : date >= 1 days >NUL"
+
